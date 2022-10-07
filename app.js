@@ -15,7 +15,7 @@ app.get("/music", (req, res)=>{
     res.render('music')
 })
 
-app.get("/music/contact", (req, res)=>{
+app.get("/contact", (req, res)=>{
     res.render('contact')
 })
 
