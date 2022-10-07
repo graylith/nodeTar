@@ -24,7 +24,7 @@ app.get("/entertainment", (req, res)=>{
     res.render('entertainment')
 })
 
-app.get("/entertainment/works", (req, res)=>{
+app.get("/works", (req, res)=>{
     res.render('works')
 })
 
